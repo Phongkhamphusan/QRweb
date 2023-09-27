@@ -1,0 +1,139 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 1240px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+    .header__navbar-menu {
+        font-size: 1.4rem;
+        justify-content: space-around;
+    }
+
+}
+
+
+/* Mobile and tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+    .header__navbar-menu {
+        font-size: 1.4rem;
+        justify-content: space-around;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+
+
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    #hide-on-mobile {
+        display: none;
+    }
+
+
+    .header__top-main {
+        flex-direction: column;
+        line-height: 2.4rem;
+    }
+
+    
+
+    .header__top-main-logo {
+        display: none;
+    }
+    
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+    
+    .header__slider-img {
+        max-width: 100%;
+    }
+    
+    .header__navbar{
+        margin: 0;
+        display: none;
+
+    }
+
+    .header__slider {
+        margin: 0 auto;
+        overflow: hidden;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    .header__separation {
+        display: none;
+    }
+
+
+
+
+
+    .footer__content {
+        justify-content: center;
+    }
+    
+    .footer__content-left {
+        padding-top: 10px;
+    }
+
+    .footer__content-right {
+        padding-left: 10px;
+    }
+
+    .modal__notify {
+        flex-direction: column;
+        max-height: 300px;
+    }
+
+
+    .modal__notify-main {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .modal__button-close {
+        font-size: 1.2rem;
+        height: 40px;
+    }
+
+}
