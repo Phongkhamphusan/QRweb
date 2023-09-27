@@ -248,10 +248,7 @@
     bottom: 0;
 }
 
-#notify {
-    /*display: flex;*/
-    display: none;
-}
+
 
 .modal__overlay {
     position: absolute;
@@ -315,5 +312,12 @@
     width: 150px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+
+#notify {
+    /*display: flex;*/
+    display: none;
 }
 
